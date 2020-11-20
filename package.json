@@ -1,14 +1,23 @@
 {
   "name": "rtapi",
   "version": "0.1.0",
+  "homepage": "https://rtapifronend.herokuapp.com/",
   "private": true,
+  "engines": {
+    "npm": "6.14.6",
+    "node": "v12.18.3"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-paginate": "^6.5.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-spinners": "^0.9.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
